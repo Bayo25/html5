@@ -1,0 +1,136 @@
+<!Doctype html>
+<html lang="en">
+<head>
+        <title>Bank Account Opening Website</title>
+        <link rel="icon" href="assests/sterling.png" type="image/x-icon">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <meta name="description" content="Bank Account opening website">
+        <meta name="keyword" content="bank, account, webpage">
+        <meta name="author" content="Adebayo">
+</head>
+<body>
+    <main aria-label="main content">
+        <section aria-label="Bank Account Opening">
+            <form action="/account-details.html" method="post" autocomplete="on"> 
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required><br>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required><br>
+                    <label for="status">Marital Status</label>
+                    <select name="marital-status" id="status">
+                        <option value="single">Single</option>
+                        <option value="married">Married</option>
+                    </select><br>
+                    <label for="nationality">Nationality</label>
+                    <select name="nationality" id="nationality">
+                        <option value="nigeria">Nigeria</option>
+                        <option value="ghana">Ghanan</option>
+                        <option value="togo">Togo</option>
+                        <option value="egypt">Egypt</option>
+                        <option value="algeria">Algeria</option>
+                        <option value="france">France</option>
+                        <option value="senegal">Senegal</option>
+                        <option value="england">England</option>
+                    </select><br>
+                    <label for="address">Residential Address</label>
+                    <input type="textarea" id="address" name="address"><br>
+                    <label for="contact">Contact Information</label>
+                    <input type="email" name="contact" id="contact" placeholder="ben@email.com"><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Identification</legend>
+                    <select name="MID" id="MID">
+                        <option value="national-id">National ID</option>
+                        <option value="passport">Passport</option>
+                        <option value="drivers-license">Drivers License</option>
+                        <option value="voters-card">Voters card</option>
+                    </select><br>
+
+                    <label for="id-number">ID Number</label>
+                    <input type="text" name="id-number" id="id-number" placeholder="1023 2019345"><br>
+                    <label for="issue-date">Issue and Expiry Date</label>
+                    <input type="date" id="issue-date" name="issue-date"><br>
+
+                    <label for="place-of-issue">Place of Issue</label>
+                    <select name="place-of-issue" id="place-of-issue">
+                        <option value="ojo">Ojo</option>
+                        <option value="alimosho">Alimosho</option>
+                        <option value="Epe">Epe</option>
+                        <option value="eko">Isale-Eko</option>
+                        <option value="island">Lagos Island</option>
+                    </select><br>
+                    <label for="tin">Tax Identification Number</label>
+                    <input type="text" id="tin" name="tin"><br>
+                    <label for="bvn">Bank Verification Number</label>
+                    <input type="text" name="bvn" id="bvn"><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Employment and Financial Information</legend>
+                    <label for="occupation">Occupation</label>
+                    <input type="text" name="occupation" id="occupation"><br>
+                    <label for="employer">Employer</label>
+                    <input type="text" name="employer" id="employer"><br>
+                    <label for="employer-address">Employer Address</label>
+                    <input type="textarea" name="employer-address" id="employer-address"><br>
+                    <label for="annual-income-range">Annual Income Range</label>
+                    <select name="annual-income-range" id="annual-income-range">
+                        <option value="0-500000">0-500000</option>
+                        <option value="500000-1000000">500000-1000000</option>
+                        <option value="1000000-2000000">1000000-2000000</option>
+                    </select><br>
+                    <label for="nok">Next of kin</label><br>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="relationship">Relationship</label>
+                    <select name="status" id="status">
+                        <option value="brother">Brother</option>
+                        <option value="sister">Sister</option>
+                        <option value="father">Father</option>
+                        <option value="mother">Mother</option>
+                    </select><br>
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Account Preference</legend>
+                    <label for="account-type">Type of Account</label>
+                    <select name="account-type" id="account-type">
+                        <option value="savings">Savings</option>
+                        <option value="savings">Current</option>
+                        <option value="savings">Domicilliary</option>
+                        <option value="savings">Coporate</option>
+                    </select><br>
+                    <label for="mop">Mode of Operation</label>
+                    <select name="mop" id="mop">
+                        <option value="single-sta">Single Statutory</option>
+                        <option value="savings">Joint</option>
+                    </select><br>
+                    <label for="place-of-issue">Preffered Branch</label>
+                    <select name="place-of-issue" id="place-of-issue">
+                        <option value="ojo">Ojo</option>
+                        <option value="alimosho">Alimosho</option>
+                        <option value="Epe">Epe</option>
+                        <option value="eko">Isale-Eko</option>
+                        <option value="island">Lagos Island</option>
+                    </select><br>
+                    <label for="add-service">Additional service</label>
+                    <select name="add-service" id="add-service">
+                        <option value="atm">ATM</option>
+                        <option value="mobile">Mobile banking</option>
+                        <option value="internt">Internet Banking</option>
+                        <option value="cheque">Cheque book</option>
+                    </select>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
